@@ -3,8 +3,8 @@ name: Deploy static site to GitHub Pages
 on:
   push:
     branches:
-      - new-branch-name
       - main
+      - new-branch-name
 
 permissions:
   contents: read
